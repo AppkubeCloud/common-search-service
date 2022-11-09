@@ -66,7 +66,7 @@ import com.synectiks.search.utils.IESUtils;
 public class SearchManager {
 
 	private static final Logger logger = LoggerFactory.getLogger(SearchManager.class);
-	private static final String ENTITY_PKG = "com.synectiks.cms.entities";
+	private static final String ENTITY_PKG = "com.synectiks.commons.entities.documents";
 	private static final int SCROLL_SIZE = 5000;
 
 	@Autowired
